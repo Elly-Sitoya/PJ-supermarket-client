@@ -1,0 +1,34 @@
+.addproducts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.addproducts-wrapper {
+  width: 900px;
+  /* background-color: yellow; */
+  padding: 1rem;
+}
+
+.addproducts-title > h3 {
+  text-align: center;
+  color: var(--primary-blue);
+  font-size: 2.5rem;
+}
+
+.addproducts-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.addproducts-form-input {
+  height: 2.5rem;
+  padding: 1rem;
+  outline: none;
+}
+
+.product-name-message,
+.product-category-message,
+.product-price-message,
+.product-file-message {
+  display: none;
+}

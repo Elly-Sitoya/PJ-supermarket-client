@@ -1,0 +1,16 @@
+.productCard {
+  box-shadow: var(--productCardShadow);
+  padding: 2px;
+  background: var(--secondary-blue);
+}
+
+.productCard > a {
+  list-style: none;
+  color: var(--white);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}

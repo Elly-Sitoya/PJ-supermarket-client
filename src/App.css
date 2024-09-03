@@ -1,0 +1,66 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+:root {
+  --light-blue-background: linear-gradient(to right, #ecf2ff, #fbfcff);
+  --primary-blue: #caba2c;
+  --secondary-blue: #1b2433;
+  --light-blue: #293241;
+  --ocean-blue: #0cc2ea;
+  --white: #fff;
+  --light-green: #54de54;
+  --black: black;
+  --red: rgb(255, 22, 22);
+  --grey: #a5a7ac;
+  --light-grey: #cbcdd3;
+  --teal: #1ecab0;
+  --light-grey_2: #d0d3da;
+
+  --productCardShadow-2: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --productCardShadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  padding: 0.5rem 0.5rem;
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 28px;
+  outline: transparent;
+  background-color: var(--primary-blue);
+  font-size: 80%;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-wrap: nowrap;
+}
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-blue);
+  border-radius: 4rem;
+}
+
+.my {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,268 @@
+:root {
+  --shelf-height: 55%;
+  --shelf-width: 8%;
+  --horizontal-shelf-width: 20%;
+  --horizontal-shelf-height: 8%;
+}
+.s-container {
+  /* background: blue; */
+}
+.s-wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+.store-shelf {
+  border: 30px solid var(--grey);
+  /* background: rgb(23, 8, 151); */
+  background: rgba(248, 247, 250, 0.76);
+  width: 70%;
+  height: 35rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.first-shelf {
+  width: 20%;
+  height: var(--horizontal-shelf-height);
+  background-color: var(--primary-blue);
+  margin: auto;
+  position: absolute;
+  left: 3%;
+  cursor: pointer;
+}
+
+.second-shelf {
+  width: 20%;
+  height: var(--horizontal-shelf-height);
+  background-color: var(--primary-blue);
+  position: absolute;
+  /* top: 15%; */
+  right: 3%;
+  cursor: pointer;
+}
+
+.third-shelf {
+  position: absolute;
+  width: 20%;
+  height: var(--horizontal-shelf-height);
+  /* top: 15%; */
+  left: 40%;
+  background-color: var(--primary-blue);
+}
+.fourth-shelf {
+  position: absolute;
+  width: var(--shelf-width);
+  height: var(--shelf-height);
+  top: 20%;
+  left: 3%;
+  background-color: var(--primary-blue);
+}
+.fifth-shelf {
+  position: absolute;
+  width: var(--shelf-width);
+  height: var(--shelf-height);
+  top: 20%;
+  left: 30%;
+  background-color: var(--primary-blue);
+}
+.sixth-shelf {
+  position: absolute;
+  width: var(--shelf-width);
+  height: var(--shelf-height);
+  top: 20%;
+  left: 60%;
+  background-color: var(--primary-blue);
+}
+
+.seventh-shelf {
+  position: absolute;
+  width: var(--shelf-width);
+  height: var(--shelf-height);
+  top: 20%;
+  left: 85%;
+  background-color: var(--primary-blue);
+}
+
+.eighth-shelf {
+  position: absolute;
+  width: var(--horizontal-shelf-width);
+  height: var(--horizontal-shelf-height);
+  bottom: 14%;
+  right: 75%;
+  background-color: var(--primary-blue);
+}
+.ninth-shelf {
+  position: absolute;
+  width: var(--horizontal-shelf-width);
+  height: var(--horizontal-shelf-height);
+  bottom: 14%;
+  right: 42%;
+  background-color: var(--primary-blue);
+}
+.tenth-shelf {
+  position: absolute;
+  width: var(--horizontal-shelf-width);
+  height: var(--horizontal-shelf-height);
+  bottom: 14%;
+  right: 5%;
+  background-color: var(--primary-blue);
+}
+
+.people-with-cart {
+  width: 60px;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+.people-with-cart-img {
+  width: 100%;
+}
+
+.people-with-cart-2 {
+  position: absolute;
+  width: 100px;
+  top: 30%;
+  left: 12%;
+}
+
+.people-with-cart-img-2 {
+  width: 100%;
+}
+
+.people-with-cart-3 {
+  position: absolute;
+  width: 100px;
+  bottom: 0%;
+  right: 15%;
+}
+
+.people-with-cart-img-3 {
+  width: 100%;
+}
+
+.people-with-cart-4 {
+  position: absolute;
+  width: 100px;
+  bottom: 40%;
+  right: 20%;
+}
+
+.people-with-cart-img-4 {
+  width: 100%;
+}
+
+.people-with-cart-5 {
+  position: absolute;
+  width: 100px;
+  bottom: 40%;
+  right: -14%;
+}
+
+.people-with-cart-img-5 {
+  width: 100%;
+}
+
+.people-with-cart-6 {
+  position: absolute;
+  width: 50px;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.people-with-cart-img-6 {
+  width: 100%;
+}
+
+.people-with-cart-7 {
+  position: absolute;
+  width: 50px;
+  bottom: 40%;
+  right: 20%;
+}
+
+.people-with-cart-img-7 {
+  width: 100%;
+}
+
+.people-with-cart-8 {
+  position: absolute;
+  width: 50px;
+  bottom: 40%;
+  right: 20%;
+}
+
+.people-with-cart-img-8 {
+  width: 100%;
+}
+
+.people-with-cart-9 {
+  position: absolute;
+  width: 50px;
+  bottom: 40%;
+  right: 20%;
+}
+
+.people-with-cart-img-9 {
+  width: 100%;
+}
+
+.people-with-cart-10 {
+  position: absolute;
+  width: 50px;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.people-with-cart-img-10 {
+  width: 100%;
+}
+
+.people-with-cart-11 {
+  position: absolute;
+  width: 50px;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.people-with-cart-img-11 {
+  width: 100%;
+}
+
+.security_2 {
+  position: absolute;
+  width: 100px;
+  top: 90%;
+  left: 25%;
+}
+
+.square {
+  width: 100px;
+  height: 40px;
+  /* background-color: rgb(23, 8, 151); */
+  background-color: rgb(24, 24, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+.box-1 {
+  position: absolute;
+  top: 98%;
+  left: 25%;
+}
+
+.box-2 {
+  position: absolute;
+  top: 98%;
+  left: 74%;
+}
+
+center {
+  font-size: 12px;
+  color: rgb(58, 56, 56);
+}
